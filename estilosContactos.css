@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #ffff;
+}
+/*Ancho de la pagina*/
+.Contenedor{
+    width: 90%;
+    margin: auto;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.Conte-nav{
+    width: 90%;
+    margin: auto;
+}
+/*Navegacion*/
+.cont-ul{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.nav-menu{
+    display: flex;
+}
+.cont-ul ul li{
+    padding: 30px;
+}
+/*Otorgar espacio a nuestros a*/
+.cont-ul ul li a{
+    padding: 10px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.cont-ul ul li a:hover{
+    border-bottom: 2px solid #000;
+    color: #009DAE;
+
+
+}
+/*EtiquetaImagen*/
+.Img{
+    padding: 10px 10px ;
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+/*Aplicamos al contenedor el ancho de la pagina etc*/
+.Contenedor-contactos{
+    width: 90%;
+    margin: auto;
+    margin-bottom:20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+.Contenedor-contactos{
+    background: url(img/fondo_difuminado_login.jpg);
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+}
+.Contenedor-contactos h1{
+    text-align: center;
+    font-size: 50px;
+}
+.Contenedor-contactos span{
+    color: #44d9e6;
+}
+.Container-nombre-Masinfo{
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+.Container-nombre-email{
+    background: #222222;
+}
+.Container-nombre-email h2{
+    margin-left: 20px;
+    padding: 10px 0 0 0;
+    font-family: 'Oxygen', sans-serif;
+}
+.Container-nombre-email form{
+    padding: 0 20px;
+}
+.Container-nombre-email form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Container-nombre-email form .Block{
+    grid-column: 1/3;
+}
+.Container-nombre-email form p{
+    margin-top: 10px;
+    margin: 0;
+    padding: 20px;
+}
+.Container-nombre-email form textarea,
+.Container-nombre-email form input,
+.Container-nombre-email form button{
+    width: 100%;
+    padding:5px;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    border-bottom: 1px solid #d63031;
+}
+/*Estilos al boton*/
+.Container-nombre-email form button{
+    background: #44d9e6;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+.Container-nombre-email label{
+    font-family: 'Oxygen', sans-serif;
+
+}
+/*Pseudoclase hover:Al pasar el mause porel boton se aplica un color*/
+.Container-nombre-email form button:hover,
+.Container-nombre-email form button:focus{
+    background: #009DAE;
+    color: #fff;
+    /*Una propiedad que va a permitir aumentar el tamaño de elemento*/
+    transform: scale(1.02);
+}
+/*Aqui le aplique un fondo color negro a la otra clase*/
+.Container-MasInfo{
+    background: #000;
+}
+.Container-MasInfo ul,
+.Container-MasInfo p{
+    text-align: center;
+    margin: 20px;
+} 
+.Container-MasInfo h2{
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+/*Estilo al elemento list(ul)*/
+.Container-MasInfo ul{
+    list-style: none;
+}
+.Container-MasInfo ul li{
+    padding: 5px ;
+}
+.Container-nombre-Masinfo{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.Container-MasInfo h4,
+.Container-MasInfo ul,
+.Container-MasInfo p,
+.Container-MasInfo input{
+    text-align: left;
+}
+.Container-MasInfo p{
+    text-align: justify;
+}

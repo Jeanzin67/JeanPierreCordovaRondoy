@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #f5f5f5;
+}
+/*Ancho de la pagina*/
+.Contenedor{
+    width: 90%;
+    margin: auto;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.Conte-nav{
+    width: 90%;
+    margin: auto;
+}
+/*Navegacion*/
+.cont-ul{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.nav-menu{
+    display: flex;
+}
+.cont-ul ul li{
+    padding: 30px;
+}
+/*Otorgar espacio a nuestros a*/
+.cont-ul ul li a{
+    padding: 10px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.cont-ul ul li a:hover{
+    border-bottom: 2px solid #000;
+    color: #009DAE;
+
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/*EtiquetaImagen*/
+.Img{
+    padding: 10px 10px ;
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+article{
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    padding-bottom: 40px;
+    box-shadow: -10px 0 20px -30px black;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+article{
+    border-top: 6px solid #61D2B4;
+
+}
+.container h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+.container h2{
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+.container p{
+    font-size: 18px;
+    font-weight: 300px;
+    color: #3c3c3c;
+    text-align: justify;
+    margin-top: 20px;
+}
+.container img{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 20px -20px green;
+}

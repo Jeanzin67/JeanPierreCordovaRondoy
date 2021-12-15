@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #fff;
+}
+/*Ancho de la pagina*/
+.Contenedor{
+    width: 90%;
+    margin: auto;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.Conte-nav{
+    width: 90%;
+    margin: auto;
+}
+/*Navegacion*/
+.cont-ul{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.nav-menu{
+    display: flex;
+}
+.cont-ul ul li{
+    padding: 30px;
+}
+/*Otorgar espacio a nuestros a*/
+.cont-ul ul li a{
+    padding: 10px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.cont-ul ul li a:hover{
+    border-bottom: 2px solid #000;
+    color: #009DAE;
+
+
+}
+/*EtiquetaImagen*/
+.Img{
+    padding: 10px 10px ;
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+.Container-W{
+    width: 90%;
+    margin: auto;
+    /*Permite que u caja sea flexibe */ 
+    display: flex;
+    justify-content: center;
+}
+/*Contenido*/
+article{
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 40px;
+    box-shadow: -10px 0 20px -30px black;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+article{
+    border-top: 6px solid #61D2B4;
+}
+article h1{
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+article h2{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #3c3c3c;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+article p{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #3c3c3c;
+    text-align: justify;
+}
+/*Aside de los Articulos*/
+.Container-aside-w aside{
+    width: 320px;
+    box-shadow: 0 0 20px -20px black;
+    border-right: 6px;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.Container-aside-w .uno{
+    border-radius: 6px;
+    border-top: 6px solid #61D2B4;
+}
+.Container-aside-w aside h3{
+    margin-top: 30px;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #3c3c3c;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+.Container-aside-w aside iframe{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+}

@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #ffff;
+}
+/*Ancho de la barra de Navegacion*/
+.Conte-nav{
+    width: 90%;
+    margin: auto;
+}
+/*Asigna color a la etiqueta y quitar el text decoration a*/
+a{
+    color: #000;
+    text-decoration: none;
+}
+/*Eliminacion de esilos de Lista*/
+ul{
+    list-style: none;
+}
+/*Navegacion*/
+.cont-ul{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+/*Clase ul que contiene a los elementos li,a*/
+.nav-menu{
+    display: flex;
+}
+/*Espaaciado de relleno a los elementos ul y li*/
+.cont-ul ul li{
+    padding: 30px;
+}
+
+/*Otorgar espacio a nuestros ul ,li y a*/
+.cont-ul ul li a{
+    padding: 10px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+/*Pseudoclase hover:Al momento de pasar el cursos se aplica un estilo*/
+.cont-ul ul li a:hover{
+    border-bottom: 2px solid #000;
+    color: #009DAE;
+
+
+}
+/*EtiquetaImagen*/
+.Img{
+    padding: 10px 10px ;
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    
+
+}
+.Container-ssd{
+    width: 90%;
+    margin: auto;
+    display: flex;
+
+}
+article{
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 40px;
+    box-shadow: -10px 0 20px -30px black;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+article{
+    border-top: 6px solid #61D2B4;
+}
+article h1 {
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+article h2 {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #3c3c3c;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+article p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #3c3c3c;
+}
+article img{
+    width: 60%;
+    margin-top:20px;
+    display: block;
+    margin: auto;
+    
+}
+.Container-aside4 aside{
+    width: 320px;
+    margin-top: 10px;
+    box-shadow: 0 0 20px -20px black;
+    border-right: 6px;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.Container-aside4 .uno{
+    border-radius: 6px;
+    border-top: 6px solid #61D2B4;
+}
+/*Tamaño de la imagen*/
+.Container-aside4 aside img{
+    width: 100%;
+}
+.Container-aside4 button:hover{
+    transform: scale(1.05);
+}
+.Container-aside4 aside h2,
+.Container-aside4 aside p{
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+.Container-aside4 aside button{
+    margin-top: 20px;
+    margin-left: 20px;
+    background: #71DFE7;
+    font-size: 20px;
+    padding: 5px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Teko', sans-serif;
+
+}
